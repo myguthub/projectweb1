@@ -1,0 +1,15 @@
+
+
+/*principal: section:*/
+section { width: 75%; background-color: #deeebc; float: left; }
+section h1 { text-align: center; padding: 0.5em; color: olive; font-size: 1.4em; }
+section h2 { text-align: center; padding: 0.5em; color: grey; font-size: 1.2em; }
+section h3 { text-align: left; padding: 0.3em 3em; color: #663366; font-size: 1em;  }
+
+
+/*propaganda: aside*/
+aside { width: 25%; float: left; }
+#anuncio1 { margin: 20px; padding: 10px; border: 2px solid #A0D071; background-color: white; }
+#anuncio1 h1 { font-size: 1.1em; text-align: left; padding: 0.2em 0em; }
+#anuncio1 h2 { font-size: 1.5em; text-align: center; padding: 0.5em 0em; }
+#anuncio1 p { font-size: 0.9em; padding: 0.2em 1em; }
