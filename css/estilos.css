@@ -468,3 +468,19 @@ footer{
 img {
     margin-bottom: 10px;
 }
+
+/*Formatos para página noticias*/
+
+.noticia { width: 75%;  float: left; }
+
+.sidebar{ width: 25%; float: left; }
+
+.titulo_noticia{
+font-size: 40px;
+text-align: center;
+}
+
+.texto-anuncio{
+    font-size: 10px;
+    }
+
