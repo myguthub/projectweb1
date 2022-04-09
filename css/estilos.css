@@ -70,7 +70,7 @@ header {
     background: #bc4e9c;
     background: -webkit-linear-gradient(to right, hsla(340, 95%, 50%, 0.459), hsla(317, 45%, 52%, 0.664)), url(../img/portada.jpeg); /*preguntar a Victor*/
     background: linear-gradient(to right, hsla(340, 95%, 50%, 0.459), hsla(317, 45%, 52%, 0.664)), url(../img/portada.jpeg);
-    background-size:contain;
+    background-size: auto
     background-attachment: fixed;
     position: relative;
 }
