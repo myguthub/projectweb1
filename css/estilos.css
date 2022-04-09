@@ -492,6 +492,13 @@ text-align: center;
     
 }
 
+/*contenedor de artículos para darles margen*/
+.contenedor_articulo{
+    width: 90%;
+    position:center;
+    margin: 0 auto;
+}
+
 /*Formato de formulario contacto*/
 
 /* Style inputs with type="text", select elements and textareas */
