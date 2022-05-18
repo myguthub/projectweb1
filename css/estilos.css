@@ -539,13 +539,13 @@ input[type=text], select, textarea {
 
 /*Estilos para habilitar zoom de imágenes*/
 
-.imagenprueba {
+.img-fluid{
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
   }
   
-.imagenprueba:hover {opacity: 0.7;}
+.img-fluid:hover {opacity: 0.7;}
   
   /* The Modal (background) */
   .modal {
