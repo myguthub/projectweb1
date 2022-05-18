@@ -151,7 +151,7 @@
   var modal = document.getElementById("myModal");
   
   // Get the image and insert it inside the modal - use its "alt" text as a caption
-  var img = document.getElementsByClassName("imagenprueba")[0];
+  var img = document.getElementsByClassName("imagenprueba");
   var modalImg = document.getElementById("img01");
   var captionText = document.getElementById("caption");
   img.onclick = function(){
@@ -159,6 +159,14 @@
     modalImg.src = this.src;
     captionText.innerHTML = this.alt;
   }
+
+  //define un contador para recorrer la grid y aplicar el efecto zoom a todas las imágenes
+  for (var i = 0; i < img.length; i++) {
+  img[i].addEventListener("click", function () {
+    modal.style.display = "block";
+    modalImg.src = this.src;
+  });
+}
   
   // Get the <span> element that closes the modal
   var span = document.getElementsByClassName("close")[0];
