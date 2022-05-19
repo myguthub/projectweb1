@@ -647,13 +647,15 @@ input[type=text], select, textarea {
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    background-color: #555;
+    background-color: rgb(124, 123, 123);
     color: white;
     font-size: 16px;
     padding: 12px 24px;
     border: none;
     cursor: pointer;
     border-radius: 5px;
+    opacity: 0.8;
+    filter: alpha(opacity=90);
   }
   
   .container-button .btn:hover {
